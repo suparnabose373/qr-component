@@ -1,0 +1,32 @@
+.QRComponent {
+    width: 288px;
+    height: 467px;
+    background-color: #fff;
+    justify-self: center;
+    border-radius: 20px;
+    box-shadow: 0px 25px 25px 0px #0000000C;
+    padding: 16px;
+    text-align: center;
+
+    .image-qr-code {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        border-radius: 16px;
+    }
+    
+    .qr-heading {
+        font-weight: 700;
+        line-height: 120%;
+        font-size: 22px;
+        color: #1F314F;
+    }
+
+    .qr-subheading {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0.2px;
+        color: #68778D;
+    }
+}
