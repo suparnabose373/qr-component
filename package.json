@@ -39,5 +39,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://suparnabose373.github.io/qr-component"
+  "homepage": "https://suparnabose373.github.io/qr-component",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
